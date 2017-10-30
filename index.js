@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/abc',function(req,res) {
-  res.send('Hello abc!!!! from Genie');
+  res.redirect('abc.html'); 
 });
 
 app.get('/healthcheck', function (req, res) {
